@@ -46,7 +46,7 @@ module.exports = {
                 ephemeral: true
             })
         }).then(() => {
-            interaction.guild.channels.cache.get('1178409940096913518').send({
+            interaction.guild.channels.cache.get('LOG CHANNEL ID').send({
                 embeds: [new D.EmbedBuilder()
                     .setTimestamp()
                     .setTitle('NEW BAN')
